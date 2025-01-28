@@ -7,17 +7,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <h1>Certificate Validator</h1>
-    <input type="text" id="employeeId" placeholder="Enter Certificate ID">
-    <button onclick="searchEmployee()">Search</button>
-
+    <main class="main">
+        <header class="header">
+            <a href="#" class="logo">PAGSS - TRAINING AND DEVELOPMENT DEPARTMENT</a>         
+        </header>
+            <section class="home">
+                <div class="home-content">
+                    <h1>CERTIFICATE VALIDATOR</h1>
+                </div>
+            </section>
+        <input type="text" id="employeeId" placeholder="Enter Certificate ID">
+        <button onclick="searchEmployee()">Search</button>        
+    </main>    
     <div class="overlay" id="overlay"></div>
     <div class="popup" id="popup">
         <h2>Certificate Details</h2>
         <p id="employeeDetails"></p>
         <button onclick="closePopup()">Close</button>
     </div>
+      
 
     <script src="script.js"></script>
 
