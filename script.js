@@ -39,7 +39,7 @@ async function searchEmployee() {
         document.getElementById('employeeDetails').innerHTML = details;
         openPopup();
     } else {
-        alert('Employee not found!');
+        alert('Certificate ID not found!');
     }
 }
 
