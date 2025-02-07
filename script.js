@@ -16,7 +16,7 @@ async function fetchGoogleSheetData() {
 async function searchEmployee() {
     const employeeId = document.getElementById('employeeId').value;
     if (!employeeId) {
-        alert('Please enter an Employee ID');
+        alert('Please enter an Certificate ID');
         return;
     }
 
